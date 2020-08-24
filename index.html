@@ -1,0 +1,440 @@
+<html>
+    <head>
+     
+        
+     
+   
+        <style>
+          .logo {
+           position: absolute;
+           top: 5px;
+           left: 5px;
+        
+          }
+   
+
+
+#mybtn{
+ top: 0;
+ left: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  background-color:black;
+  display:none;
+  position: fixed;
+  
+}
+.item {
+  top: 0;
+  position: relative;
+}
+
+
+
+
+#myBtn1 {
+   
+  border: none;
+  outline: none;
+ font-family:Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: black;
+  margin-left: 60px;
+  display: inline-block;
+  border-bottom: 2px solid transparent;
+}
+#myBtn1:hover{
+  border-bottom: 2px solid red;
+}
+#myBtn2 {
+  border-bottom: 2px solid transparent;
+   border: none;
+   outline: none;
+  font-family:Arial, Helvetica, sans-serif;
+   font-size: 14px;
+   color: black;
+   margin-left: 50px;
+   display: inline-block;
+ }
+ #myBtn2:hover{
+  border-bottom: 2px solid red;
+  
+ }
+ #myBtn3 {
+  border-bottom: 2px solid transparent;
+   border: none;
+   outline: none;
+  font-family:Arial, Helvetica, sans-serif;
+   font-size: 14px;
+   color: black;
+   margin-left: 50px;
+   display: inline-block;
+ }
+ #myBtn3:hover{
+  border-bottom: 2px solid red;
+ }
+ #myBtn4 {
+  border-bottom: 2px solid transparent;
+   border: none;
+   outline: none;
+  font-family:Arial, Helvetica, sans-serif;
+   font-size: 14px;
+   color: black;
+   margin-left: 50px;
+   display: inline-block;
+ }
+ #myBtn4:hover{
+  border-bottom: 2px solid red;
+ }
+ #myBtn5 {
+  border-bottom: 2px solid transparent;
+   border: none;
+   outline: none;
+  font-family:Arial, Helvetica, sans-serif;
+   font-size: 14px;
+   color: black;
+   margin-left: 50px;
+   display: inline-block;
+ }
+ #myBtn5:hover{
+  border-bottom: 2px solid red;
+ }
+ #myBtn6 {
+  border-bottom: 2px solid transparent;
+   border: none;
+   outline: none;
+  font-family:Arial, Helvetica, sans-serif;
+   font-size: 14px;
+   color: black;
+   margin-left: 50px;
+   display: inline-block;
+ }
+ #myBtn6:hover{
+  border-bottom: 2px solid red;
+ }
+ #myBtn7 {
+  border-bottom: 2px solid transparent;
+   border: none;
+   outline: none;
+  font-family:Arial, Helvetica, sans-serif;
+   font-size: 14px;
+   color: black;
+   margin-left: 50px;
+   display: inline-block;
+ }
+ #myBtn7:hover{
+  border-bottom: 2px solid red;
+ }
+ #myBtn8 {
+  border-bottom: 2px solid transparent;
+   border: none;
+   outline: none;
+  font-family:Arial, Helvetica, sans-serif;
+   font-size: 14px;
+   color: black;
+   margin-left: 50px;
+   display: inline-block;
+ }
+ #myBtn8:hover{
+  border-bottom: 2px solid red;
+ }
+ #myBtn9 {
+  border-bottom: 2px solid transparent;
+   border: none;
+   outline: none;
+  font-family:Arial, Helvetica, sans-serif;
+   font-size: 14px;
+   color: black;
+   margin-left: 50px;
+   display: inline-block;
+ }
+ #myBtn9:hover{
+  border-bottom: 2px solid red;
+ }
+.nav {
+  position: absolute;
+  padding: 25px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #f2f2f2;
+  box-sizing: border-box;
+}
+
+.slideshow-container {
+  position: absolute;
+  width:100%;
+  height: 450px;
+  left: 0;
+  margin-top: 60px;
+ 
+}
+.slides{
+  display: none;
+}
+.h3{
+  text-align: center;
+padding-top: 50%;
+font-size: 40px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bolder;
+}
+.list1 {
+  display:inline-block;
+  position: relative;
+  text-decoration: none;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:slategray;
+}
+.list2{
+  position:absolute;
+  text-decoration: none;
+  top: 0;
+  color: red;
+  overflow: auto;
+
+}
+.list1:hover{
+  color: red;
+}
+.ponuda {
+  position: relative;
+  display: inline-block;
+  float: none;
+}
+
+.finansiranje {
+  color: slategray;
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+}
+.finansiranje2{
+  color: slategray;
+  display: inline-block;
+  padding-top: 100px;
+}
+.garancija {
+  position: static;
+ padding-top: 550px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+ 
+ .lista {
+   position: absolute;
+   padding-left: 50%;
+   margin-bottom: 100px;
+ }
+.gar {
+
+  padding: 30px;
+  box-sizing: border-box;
+  width: 600px;
+  border: 1px solid black;
+  font-size: 11px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.form{
+  padding-top: 100px;
+   width: 200px;
+   height: 200px;
+   display: block;
+  float: right;
+  margin-right: 300px;
+  font-weight: bold;
+
+}
+.isprati {
+  margin-top: 30px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 0, 0, 0.911);
+  padding: 20px;
+  
+}
+text:hover{
+  color: red;
+}
+
+
+
+           
+            
+            
+
+        </style>
+    </head>
+    <body>
+     
+      <div class="nav">
+    
+        <img class="logo" src="toyota-logo.png" style="width: 70px;">
+       
+      <button id="myBtn1">Home</button>
+      <button id="myBtn2">Models</button>
+      <button id="myBtn3">Action offer</button>
+      <button id="myBtn4">Official vehicles</button>
+      <button id="myBtn5">Used vehicles</button>
+      <button id="myBtn6">Hybrid</button>
+      <button id="myBtn7">Financing</button>
+      <button id="myBtn8">Service</button>
+      <button id="myBtn9">Contact</button>
+    </div>
+    
+
+     
+      <div class="slideshow-container">
+        <div class="slides">
+          <img src="corolla hatckback.jpg" style="width: 100%;height: 500px;">
+        </div>
+        <div class="slides">
+          <img src="733-sekoj-den-sekoj-pat-mk-1188x800.jpg" style="width: 100%;height: 500px;">
+        </div>
+        <div class="slides">
+          <img src="715-prav-izbor-mk-1188x800.jpg" style="width: 100%;height: 500px;">
+        </div>
+        <div class="slides">
+          <img src="739-voobicaeno-neobicen-mk-1188x800.jpg" style="width: 100%;height: 500px;">
+        </div>
+        <div class="slides">
+          <img src="844-dezinfekcija-na-vozila-1920x724.jpg" style="width: 100%;height: 500px;">
+        </div>
+      </div>
+  
+  
+        <h3 class="h3">
+          Models of <color style="color: red;">Toyota</color></h3>
+        <ul>
+          <li class="list1"><h3 style="text-align: center;">Aygo</h3><img src="aygo.jpg" style="width:280px;margin-bottom: 30px;"></li>
+          <li class="list1"><h3 style="text-align: center;">Yaris</h3><img src="yaris.jpg" style="width:280px"><h4 style="text-align: center;color: blue;">Hybrid</h4></li>
+          <li class="list1"><h3 style="text-align: center;">Corolla Hatchback</h3><img src="corolla.jpg" style="width:280px;"><h4 style="color: blue;text-align: center;">Hybrid</h4></li>
+          <li class="list1"><h3 style="text-align: center;">Corolla Sedan</h3><img src="corolla sedan.jpg" style="width:280px;"><h4 style="color: blue; text-align: center;">Hybrid</h4></li>
+        </ul>
+        <ul>
+          <li class="list1"><h3 style="text-align: center;">Corolla Touring Sports</h3><img src="corolla turing.jpg" style="width: 280px;"><h4 style="text-align: center;color: blue;">Hybrid</h4></li>
+          <li class="list1"><h3 style="text-align: center;">Camry</h3><img src="camry.jpg" style="width:280px"><h4 style="text-align: center;color: blue;">Hybrid</h4></li>
+          <li class="list1"><h3 style="text-align: center;">Prius</h3><img src="prius.jpg" style="width:280px;"><h4 style="color: blue;text-align: center;">Hybrid</h4></li>
+          <li class="list1"><h3 style="text-align: center;">C-HR</h3><img src="chr.jpg" style="width:280px;"><h4 style="color: blue; text-align: center;">Hybrid</h4></li>
+        </ul>
+        <ul>
+          <li class="list1"><h3 style="text-align: center;">RAV4</text></h3><img src="rav4.jpg" style="width:280px;"><h4 style="text-align: center;color: blue;margin-top:-10px;">Hybrid</h4></li>
+          <li class="list1"><h3 style="text-align: center;">Land Cruiser</h3><img src="land cruiser.jpg" style="width: 280px;"></li>
+          <li class="list1"><h3 style="text-align: center;">Hylux</h3><img src="hilux.jpg" style="width: 280px;"></li>
+          <li class="list1"><h3 style="text-align: center;">Proace</h3><img src="proace.jpg" style="width: 280px;"></li>
+        </ul>
+        <hr>
+        <h1 style="text-align: center;font-weight: bold;font-family: Arial, Helvetica, sans-serif;">ACTION OFFER</h1>
+        
+         <img class="ponuda" src="corolla hatckback.jpg" style="width: 47%;"><h2 style="color: grey;"><text>Corolla like never before</text></h2>
+         <img class="ponuda" src="733-sekoj-den-sekoj-pat-mk-1188x800.jpg" style="width: 48%;float: right;margin-top: -305px;"><h2  style="padding-left: 53%;margin-top: -47px;color: gray;"><text> Every day, every time</text></h2>
+         <img class="ponuda" src="781-corolla-sedan-kako-nikogash-dosega-mk-1188x800.jpg" style="width: 47%;"><h2 style="color: grey;"><text>Corolla sedan like never before</text></h2>
+         <img class="ponuda" src="667-tvojot-nov-tron-novata-toyota-camry-mk-1188x800.jpg" style="width: 48%;float: right;margin-top: -305px;"><h2 style="padding-left: 53%;margin-top: -47px;color: gray;"><text>Your new throne - the new Toyota Camry</text> </h2>
+         <img class="ponuda" src="739-voobicaeno-neobicen-mk-1188x800.jpg" style="width: 47%;"><h2 style="color: grey;"><text>Usually unusual</text> </h2>
+         <img class="ponuda" src="715-prav-izbor-mk-1188x800.jpg" style="width: 48%;float: right;margin-top: -305px;"><h2 style="padding-left: 53%;margin-top: -47px;color: gray;"><text> PRAV selection</text></h2>
+             
+        <div class="finansiranje">
+          <hr style="width: 100%;">
+          <h1 style="text-align: center;padding: 60px;color: black;font-family: Arial, Helvetica, sans-serif;">FINANCING</h1>
+          <img src="nlb-banka-logo.png" style="float: left;padding-left: 100px;">
+          <img src="osiguritelna-polisa.png" style="margin-left: 250px;">
+          <img src="stopanska-banka.png" style="float: right;padding-right: 100px;">
+          <div class="finansiranje2">
+           <img src="ohridska-banka-new.png" style="float: left;padding-left: 100px;width: 220px;">
+          <img src="kb.png" style="margin-left: 250px;width: 220px;">
+          <img src="spk-leasing.png" style="float: right;width: 220px;padding-left: 260px;margin-top: 20px;">
+        </div>
+        </div>
+        <div class="garancija">
+        <h1 style="text-align: center;">WARRANTY</h1>
+        <h2 style="text-align: center;font-weight: bold;color: red;">Enjoy your Toyota - built around man</h2>
+        <p style="box-sizing: border-box; width: 400px;font-size: 13px;font-family: toyotatext_rg, sans-serif;padding-top: 50px;border-bottom: 1px solid red;padding-left: 50px;">At Toyota, our customers have always been our top priority. We hope your Toyota is an important part of your life, something you depend on every day.
+          That is why we are committed to building vehicles to the highest standards, which will continuously meet your requirements, year after year ...</p>
+<ul class="lista" style="float: right;">
+  <li>Manufacturer warranty - 3 years/ 100.000 км*1	</li>
+  <li>Extended warranty - 3 years / 100.000 км*1	 </li>
+  <li>Surface corrosion / paint - 3 години	 	</li>
+  <li>Components of the hybrid drive - 6 years км*2	</li>
+  <li>Corrosion perforation - 12 years	 </li>
+  <li>Hybrid battery - 5 years/100.000 км*3 	</li>
+</ul>
+<ul class="gar">
+  <li>*1 - As soon as it expired</li>
+  <li>*2 - Prius, Yaris Hybrid, Auris Hybrid, RAV4 Hybrid</li>
+  <li>*3 - The free hybrid battery care program allows the client after the expiration of the factory battery warranty (5 years / 100,000 km) to continue with a relaxed ride without worrying about the possibility of any problem with the hybrid battery. With this program, the battery warranty is extended for another 5 years, ie an additional 75,000 km (which came first). It is recommended that the first inspection covered by the "10 year free battery care" be done before the expiration of the factory battery warranty (4 years / 85,000 km), e.g. the last month before the expiration of the factory warranty.</li>
+
+</ul>
+ </p>
+        </div>
+        <hr color="black">
+        <h1 style="text-align: center;font-family: Arial, Helvetica, sans-serif;">OUR SERVICE</h1>
+        <h2 style="text-align: center;color: red;">Buying a car at Toyota Auto Center is just the beginning</h2>
+        <img src="rezervni-delovi-front-servis.jpg" style="width: 90%;padding-left: 60px;margin-top: 30px;">
+          <div class="kontakt" style="float: left;padding-left: 100px;">
+        <h1 style="text-align: center;padding-top: 70px;font-family: Arial, Helvetica, sans-serif;">CONTACT</h1>
+        <img src="toyota-logo.png" style="margin-left: 25%;">
+        <h2 style="text-align: center;color: rgba(255, 0, 0, 0.822);font-family: Arial, Helvetica, sans-serif;">Toyota Auto Center</h2>
+        <ul style="text-align: center;">
+          <li style="list-style: none;">DOOEL Skopje</li>
+          <li style="list-style: none;">Boulevard 8-mi Septemvri number 21</li>
+          <li style="list-style: none;">1000 Skopje, Republic of Macedonia</li>
+        </ul>
+      </div>
+        <div class="form">
+        <form>
+          <label>Name *</label>
+          <input style="width: 400px;padding: 5px;" type="sign" name="name">
+          <label>Email *</label>
+          <input style="width: 400px;padding: 5px;" type="sign" name="mail">
+          <label>Message</label>
+          <textarea style="width: 300px;height: 100px;"></textarea>
+          <p style="width: 400px;border: 1px solid black;font-size: 15px;">The protection of your personal information is our priority, for more information, read our privacy policy carefully.
+
+            The personal details for this application are intended for Toyota Auto Centar DOOEL, Skopje, official representative of TOYOTA in the Republic of Northern Macedonia. Your data will be used to make requests, as well as for statistical analysis and research.
+            
+            Depending on your consent, they will be used to send you information about offers, news and announcements (newsletters, invitations and other publications) from Toyota Auto Center DOOEL, Skopje.</p>
+              
+            <input type="radio"><label style="width: 150px;"><text>I accept the above conditions.</text>
+              <button class="isprati">Send</button>
+           
+        </form>
+      
+      </div>
+      
+        
+   
+    <script>
+  
+  
+var slideIndex=0;
+
+showSlides();
+
+function showSlides(){
+  var slides = document.getElementsByClassName("slides");
+  for(i=0; i < slides.length; i++){
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if(slideIndex > slides.length){slideIndex=1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides,3000)
+}
+
+  
+
+
+
+
+
+
+
+      
+      
+    </script>
+    
+    </body>
+</html>
